@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+display: flex;
+justify-content: center;
+padding-bottom: 20px;
+}
+.titles{
+    width: 60%;
+}
+.maintitles{
+    position: relative;
+    width: 100%;
+    height: 140px;
+    h1{
+        width: 100%;
+        height: auto;
+        font-family: sans-serif;
+        font-size: 50px;
+        line-height: 70px;
+        color: #4a4a4a;
+        letter-spacing: -1.2px;
+    }
+    h2{
+        top: 30%;
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 50px;
+        line-height: 70px;
+        font-weight: 800;
+        color: #4a4a4a;
+        letter-spacing: -1.2px;
+    }
+}
+.titles2{
+    width: 24%;
+}
+.colors{
+height: 66px;
+display: flex;
+align-items: center;
+}
+.titles1{
+    width: 60%;
+height: 140px;
+display: flex;
+align-items: center;
+ h1{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4a4a4a;
+    font-weight: 400;
+ }   
+}
+    
+    .card-body{
+        h5{
+            color: #323232;
+            font-size: 18px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+        p{
+            font-size: 16px;
+            line-height: 24px;
+        }   
+    }
+    .card-text1{
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 800;
+        color: #4a4a4a;
+    }
+    .section1{
+        padding-top: 20px;
+        width: 100%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .col-md-4{
+        cursor: pointer;
+    }
+    .text-body-secondary{
+        cursor: pointer;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .section2{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .fixed-background {
+        background-image: url(https://2022.code.edu.az/wp-content/uploads/2021/09/code-academy-bg.jpeg);
+        background-attachment: fixed;
+        background-size: cover;
+        height: 450px;
+    }
+    
+    .image {
+        background-image: url('your-image.jpg'); 
+        background-size: cover; 
+    }
+    .image1{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: end;
+    h1{
+        width: 60%;
+        font-size: 21px;
+        line-height: 28px;
+        font-weight: 800;
+        color: white;
+    }
+    }
+    .image2{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 160px;
+        h1{
+            font-size: 70px;
+            line-height: 70px;
+            font-weight: 800;
+            color: white;
+        }
+    }
+    .image3{
+        padding-left: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+        height: 160px;
+        h2{
+            
+            text-align: center;
+            font-size: 35px;
+            line-height: 35px;
+            font-weight: 300;
+            color: white; 
+        }
+    }
+    .text2{
+       width: 70px; ;
+    }
+
+    @media screen and (max-width: 767px){
+        .titles2{
+    display: none;
+        }
+        .titles{
+            width: 100%;
+        }
+        .maintitles{
+            h1{
+                font-size: 35px;
+            }
+            h2{
+                font-size: 34px;
+                top: 35%;
+                position: absolute;
+                font-family: sans-serif;
+                font-size: 35px;
+                line-height: 30px;
+    
+            }
+            }
+            .colors{
+                padding: 21px 0;
+                align-items: start;
+            }
+            .titles1{ width: 100%;
+            }
+            .section1{
+                display: flex;
+                justify-content: center;
+            }
+            .col-md-4{
+                display: flex;
+                justify-content: center;
+            }
+        .card_mb-3{
+            width: 540px;
+        }    
+        .col-md-4{
+            display: none;
+        }
+
+
+        .section2{
+            width: 100%;
+            height: 1000px;
+        }
+        .fixed-background {
+            background-attachment: scroll;
+            height: 450px;
+        }
+        .image1{
+            width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: start;
+    h1{
+        width: 80%;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 800;
+        color: white;
+    }
+        }
+ 
+        .image2{
+            width: 100%;
+            display: flex;
+            flex-direction: column;        
+            align-items: center;
+            height: 200px;
+            h1{
+                font-size: 30px;
+                line-height: 70px;
+                font-weight: 700;
+                color: white;
+            }
+        }
+        .image3{
+             width: 100%;
+            display: flex;
+            flex-direction: column;        
+            align-items: center;
+            height: 200px;
+            h1{
+                font-size: 30px;
+                line-height: 70px;
+                font-weight: 700;
+                color: white;
+            }
+        }
+        }
+
+        @media screen and (max-width: 450px){
+    
+    .colors{
+        padding: 40px 0;
+    }
+
+}
+@media screen and (max-width: 1141px){
+    
+    .section2{
+        width: 100%;
+        height: 1500px;
+    }
+
+}
